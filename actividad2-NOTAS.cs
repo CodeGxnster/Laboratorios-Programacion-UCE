@@ -20,7 +20,7 @@ namespace Actividad2
       notas = new double[num_de_estudiantes][];
       promedios = new double[num_de_estudiantes];
 
-      // bucles para obtener datos
+      // bucles para obtener datos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
       for (int i = 0; i <= num_de_estudiantes - 1 ; i++){
 
         Console.Write($"[+] Ingrese el nombre del estudiante NO. {i + 1} ");  
@@ -46,7 +46,7 @@ namespace Actividad2
         estatus = "Reprobado";
 
         if (promedios[i]/4 >= 70){
-          estatus = "Aprovado";
+          estatus = "Aprobado";
         }
         Console.Write($"{nombres[i]}\t{notas[i][0]}\t{notas[i][1]}\t{notas[i][2]}\t{notas[i][3]}\t{promedios[i]/4}\t\t{estatus}\n");   
       }  
